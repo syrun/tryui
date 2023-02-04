@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <RouterView />
+  <t-button />
 </template>
 
 <style scoped>

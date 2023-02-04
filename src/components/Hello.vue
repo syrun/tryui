@@ -1,7 +1,12 @@
-<script lang='ts' setup>
+<script lang="ts">
 import { withDefaults } from 'vue'
+export default {
+  name: 'Hello',
+}
+</script>
 
-const props = withDefaults(defineProps<{ msg: string }>(), {
+<script lang='ts' setup>
+const props = withDefaults(defineProps<{ msg?: string }>(), {
   msg: 'Hello Vue',
 })
 </script>
@@ -11,5 +16,4 @@ const props = withDefaults(defineProps<{ msg: string }>(), {
 </template>
 
 <style scoped>
-
 </style>
